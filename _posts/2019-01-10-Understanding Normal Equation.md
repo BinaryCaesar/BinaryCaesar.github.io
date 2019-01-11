@@ -338,15 +338,20 @@ $$
 
 ## Reference
 
-> Matrix Calculus: [https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
+> Matrix Calculus:
+>[https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
 >
-> Properties of the Trace and Matrix Derivatives: [https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
+> Properties of the Trace and Matrix Derivatives:
+> [https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
 >
->Moore–Penrose inverse: [https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
+>Moore–Penrose inverse:
+[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
 >
-> 掰开揉碎推导Normal Equation: [https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
+> 掰开揉碎推导Normal Equation:
+> [https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
 >
->5种方法推导 Normal Equation: [https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
+>5种方法推导 Normal Equation:
+[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
 
 [1]:https://en.wikipedia.org/wiki/Matrix_calculus/ "Matrix Calculus"
 [2]:https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/ "Properties of the Trace and Matrix Derivatives"

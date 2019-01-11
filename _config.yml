@@ -1,14 +1,13 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             BinaryCaesar
+email:             BinaryCaesar@gmail.com
+description:       If you can't tell, does it matter?
+author:            BinaryCaesar
 baseurl:           "/BinaryCaesar.github.io"
 url:               "http://BinaryCaesar.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+github_username:   BinaryCaesar
+wechat_public_account: 造物神物色的神怪
 
 # Build settings
 markdown:          kramdown
