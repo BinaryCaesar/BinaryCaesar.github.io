@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Understanding Normal Equation"
+subtitle: "什么是 Normal Equation? 如何推导? 有什么深层含义?"
+date:   2019-01-10 23:45:00 +0800
+background: '/img/posts/2019-01-10.jpg'
+---
+
 # 理解 Normal Equation
 
 Normal Equation 是线性回归方程中,一种求最佳拟合系数的最小二乘方法.与机器学习中常见的多次迭代,逐渐逼近的方式不同,Normal Equation可以直接通过矩阵运算求得拟合系数.
