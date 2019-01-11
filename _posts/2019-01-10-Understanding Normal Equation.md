@@ -338,20 +338,37 @@ $$
 
 ## Reference
 
+<font size = '2'>
+
 > Matrix Calculus:
+></br>
 >[https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
->
+
+</br>
+
 > Properties of the Trace and Matrix Derivatives:
+></br>
 > [https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
->
->Moore–Penrose inverse:
-[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
->
+
+</br>
+
+> Moore–Penrose inverse:
+></br>
+>[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
+
+</br>
+
 > 掰开揉碎推导Normal Equation:
+></br>  
 > [https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
->
->5种方法推导 Normal Equation:
-[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
+
+</br>
+
+> 5种方法推导 Normal Equation:
+></br>
+>[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
+
+</font>
 
 [1]:https://en.wikipedia.org/wiki/Matrix_calculus/ "Matrix Calculus"
 [2]:https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/ "Properties of the Trace and Matrix Derivatives"
