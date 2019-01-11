@@ -45,7 +45,8 @@ $$
 [Matrix Calculus][1].
 
 </font>
-</br>
+
+<br/>
 
 ## 1. 推导过程
 
