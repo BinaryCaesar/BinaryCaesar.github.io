@@ -54,7 +54,7 @@ $$
 
 ### 1.1 硬算
 
-最简单粗暴的方法.</br>
+最简单粗暴的方法.<br/>
 根据最小二乘的定义,求 $\theta$ 使得预测值与实际观测值的均方误差最小,也即
 
 $$\overline{\theta} = arg\ min(\frac{1}{2m}\sum_{i=1}^m (x^{(i)} \cdot \theta\ -y_i)^2)\tag{(4)}$$
@@ -122,7 +122,7 @@ $$
 
 </font>
 
-</br>
+<br/>
 
 ### 1.2 矩阵微积分
 
@@ -156,7 +156,7 @@ $$
 {\frac{\partial{ax}}{\partial{x}}} = a
 $$
 
-具体推导过程此处不再展开,可参考[matrix prop][2].</br>
+具体推导过程此处不再展开,可参考[matrix prop][2].<br/>
 千万注意,关于矩阵微积分,不同作者的矩阵排布方式可能不同,同样的表达式,分子布局和分母布局的结果可能会差个转置或运算顺序,务必确认具体采用的是哪种布局,不然极容易出错.
 </font>
 
@@ -171,7 +171,7 @@ $$
 $$
 \theta=(X^TX)^{-1}X^Ty
 $$
-</br>
+<br/>
 
 另外,也可以根据链式求导法则,直接对 $(8)$ 直接求导,得到
 
@@ -189,7 +189,7 @@ $$
 $$
 \theta=(X^TX)^{-1}X^Ty
 $$
-</br>
+<br/>
 
 ### 1.3 几何意义推导
 
@@ -212,8 +212,8 @@ $$
 $^*$习惯上,我们说的距离都是指欧氏距离,这其实也是最小二乘中平方的本质.
 
 </font>
-</br>
-</br>
+<br/>
+<br/>
 
 ## 2. 更进一步
 
@@ -275,12 +275,12 @@ $$
 思考一下,广义右逆怎么推导？
 
 </font>
-</br>
+<br/>
 
 总之,我们又一次得到了 Normal Equation.也就是说,当在 $(9)$ 的两边分别左乘 $X^T$ 的时候,恰好满足了 $X$ 的伪逆的形式.那么左乘其他矩阵,是否能达到类似的效果呢？答案是肯定的.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 3. 再进一步
 
@@ -327,46 +327,46 @@ $$
 $$
 
 注意左乘矩阵的选择并不惟一,比如 $X^T$ ,又比如 $Q$ 经初等变换得到的矩阵均满足要求.但QR分解计算效率高, $Q^TQ=I$ 这个性质大大简化了计算,并且有很多成熟的算法和包可以高效实现这一过程,所以这也是目前在解线性回归模型时最常用的方法之一.
-</br>
-</br>
+<br/>
+<br/>
 
 ## 4. 小结
 
 综上,用最小二乘法处理线性回归问题实际上就是寻找 $y$ 在某一线性空间中的投影向量,这个空间最直观的选择就是 $X$ 本身的列空间,而为了提高计算速度,常选用 $X$ 经QR分解后的得到的正交矩阵 $Q$ 的列空间.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## Reference
 
 <font size = '2'>
 
 > Matrix Calculus:
-></br>
+><br/>
 >[https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
 
-</br>
+<br/>
 
 > Properties of the Trace and Matrix Derivatives:
-></br>
+><br/>
 > [https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
 
-</br>
+<br/>
 
 > Moore–Penrose inverse:
-></br>
+><br/>
 >[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
 
-</br>
+<br/>
 
 > 掰开揉碎推导Normal Equation:
-></br>  
+><br/>  
 > [https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
 
-</br>
+<br/>
 
 > 5种方法推导 Normal Equation:
-></br>
+><br/>
 >[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
 
 </font>
