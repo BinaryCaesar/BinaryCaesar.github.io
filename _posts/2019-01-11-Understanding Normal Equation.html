@@ -1,3 +1,11 @@
+---
+layout: post
+title: 'Understanding Normal Equation'
+subtitle: '什么是 Normal Equation? 如何推导? 有什么深层含义?'
+date: '2019-01-11 23:45:00 +0800'
+background: /img/posts/bridge_lines.jpg
+---
+
 <!DOCTYPE html>
     <html>
     <head>
@@ -23,13 +31,7 @@
         
     </head>
     <body>
-        <hr>
-<h2 id="layout-posttitle-%22understanding-normal-equation%22subtitle-%22%E4%BB%80%E4%B9%88%E6%98%AF-normal-equation-%E5%A6%82%E4%BD%95%E6%8E%A8%E5%AF%BC-%E6%9C%89%E4%BB%80%E4%B9%88%E6%B7%B1%E5%B1%82%E5%90%AB%E4%B9%89%22date-2019-01-11-234500-0800background-imgpostsbridgelinesjpg">layout: post
-title:  &quot;Understanding Normal Equation&quot;
-subtitle: &quot;什么是 Normal Equation? 如何推导? 有什么深层含义?&quot;
-date:   2019-01-11 23:45:00 +0800
-background: '/img/posts/bridge_lines.jpg'</h2>
-<h1 id="%E7%90%86%E8%A7%A3-normal-equation">理解 Normal Equation</h1>
+        <h1 id="%E7%90%86%E8%A7%A3-normal-equation">理解 Normal Equation</h1>
 <p>Normal Equation 是线性回归方程中,一种求最佳拟合系数的最小二乘方法.与机器学习中常见的多次迭代,逐渐逼近的方式不同,Normal Equation可以直接通过矩阵运算求得拟合系数.</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mtable side="right"><mlabeledtr><mtd><mtext>(1)</mtext></mtd><mtd><mrow><mi>θ</mi><mo>=</mo><mo>(</mo><msup><mi>X</mi><mi>T</mi></msup><mi>X</mi><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><msup><mi>X</mi><mi>T</mi></msup><mi>y</mi></mrow></mtd></mlabeledtr></mtable><annotation encoding="application/x-tex">\theta=(X^TX)^{-1}X^Ty\tag{1}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathit" style="margin-right:0.02778em;">θ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1413309999999999em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathit" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913309999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span><span class="mord mathit" style="margin-right:0.07847em;">X</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.864108em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathit" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913309999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span><span class="mord mathit" style="margin-right:0.03588em;">y</span></span><span class="tag"><span class="strut" style="height:1.1413309999999999em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">(</span><span class="mord"><span class="mord">1</span></span><span class="mord">)</span></span></span></span></span></span></p>
