@@ -146,7 +146,7 @@ $$
 
 <font size = '1'>
 
-注：此式中各项皆为实值标量,对向量求导也就是对向量的各分量求导,并按照该向量的shape返回结果.标量对向量求导具体可参考[Matrix Calculus][1],此处直接使用了相关的公式：
+注：此式中各项皆为实值标量,对向量求导也就是对向量的各分量求导,并按照该向量的shape返回结果.标量对向量求导具体可参考[[Matrix Calculus]][1],此处直接使用了相关的公式：
 
 $$
 {\frac{\partial{x^Tx}}{\partial{x}}} = x^T(A+A^T)
@@ -156,7 +156,7 @@ $$
 {\frac{\partial{ax}}{\partial{x}}} = a
 $$
 
-具体推导过程此处不再展开,可参考[matrix prop][2].<br/>
+具体推导过程此处不再展开,可参考[[Properties of the Trace and Matrix Derivatives]][2].<br/>
 千万注意,关于矩阵微积分,不同作者的矩阵排布方式可能不同,同样的表达式,分子布局和分母布局的结果可能会差个转置或运算顺序,务必确认具体采用的是哪种布局,不然极容易出错.
 </font>
 
@@ -221,7 +221,7 @@ $^*$习惯上,我们说的距离都是指欧氏距离,这其实也是最小二�
 
 但是再看 $(7)$ ,这是得出Normal Equation 的前一步,然而从形式上看,只是在 $(6)$ 的等式两端分别左乘了 $X^T$ .为什么这样就能求得超定方程组 $(9)$ 的最小二乘解？
 
-回到 $X\theta=y$ ,若 $X$ 可逆,那么可以直接等式两边左乘 $X^{-1}$ ,得到 $\theta=X^{-1}y$, 而当 $X$ 不可逆的时候,想要达到类似的效果,可以采用 $X$ 的伪逆 $X^+$ (或称作广义逆),其中最广为人知的即为 Moore–Penrose inverse,具体可以参考wiki [[Moore–Penrose inverse]][4].
+回到 $X\theta=y$ ,若 $X$ 可逆,那么可以直接等式两边左乘 $X^{-1}$ ,得到 $\theta=X^{-1}y$, 而当 $X$ 不可逆的时候,想要达到类似的效果,可以采用 $X$ 的伪逆 $X^+$ (或称作广义逆),其中最广为人知的即为 Moore–Penrose inverse,具体可以参考[[Moore–Penrose inverse]][3].
 
 根据其定义, $X^+$ 需满足下述条件中的1个或多个:
 
@@ -341,38 +341,25 @@ $$
 
 <font size = '2'>
 
-> Matrix Calculus:
-><br/>
->[https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
+1. Matrix Calculus: <br/>
+[https://en.wikipedia.org/wiki/Matrix_calculus/](ttps://en.wikipedia.org/wiki/Matrix_calculus/)
 
-<br/>
+2. Properties of the Trace and Matrix Derivatives:<br/>
+[https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
 
-> Properties of the Trace and Matrix Derivatives:
-><br/>
-> [https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/)
+3. Moore–Penrose inverse: <br/>
+[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
 
-<br/>
+4. 掰开揉碎推导Normal Equation: <br/>
+[https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
 
-> Moore–Penrose inverse:
-><br/>
->[https://en.wikipedia.org/wiki/Moore–Penrose_inverse/](https://en.wikipedia.org/wiki/Moore–Penrose_inverse)
-
-<br/>
-
-> 掰开揉碎推导Normal Equation:
-><br/>  
-> [https://zhuanlan.zhihu.com/p/22757336/](https://zhuanlan.zhihu.com/p/22757336)
-
-<br/>
-
-> 5种方法推导 Normal Equation:
-><br/>
->[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
+5. 5种方法推导 Normal Equation: <br/>
+[https://www.cnblogs.com/AngelaSunny/p/6616712.html/](https://www.cnblogs.com/AngelaSunny/p/6616712.html)
 
 </font>
 
 [1]:https://en.wikipedia.org/wiki/Matrix_calculus/ "Matrix Calculus"
 [2]:https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf/ "Properties of the Trace and Matrix Derivatives"
-[3]:https://zhuanlan.zhihu.com/p/22757336/ "zhihu"
-[4]:https://en.wikipedia.org/wiki/Moore–Penrose_inverse "Moore–Penrose inverse"
+[3]:https://en.wikipedia.org/wiki/Moore–Penrose_inverse "Moore–Penrose inverse"
+[4]:https://zhuanlan.zhihu.com/p/22757336/ "zhihu"
 [5]:https://www.cnblogs.com/AngelaSunny/p/6616712.html "5种方法推导 Normal Equation"
